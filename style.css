@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    display: flex;
+}
+.header-text{
+    width: 50%;
+    padding-left: 90px;
+    margin-top: 90px;
+    
+    
+}
+.header-text .text-color{
+    color: rgb(255, 167, 4);
+}
+.header-text h1, h2, h3{
+    font-size: 35px;
+    
+}
+.header-text p{
+    text-align: justify;
+    margin-bottom: 45px;
+}
+.header-image{
+    width: 50%;
+}
+.header-image img{
+    width: 80%;
+}
+.header-text .food-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+
+
+.about-area{
+    display: flex;
+    margin-top: 150px;
+    background-image: url('image/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-image{
+    width: 50%;
+    margin-top: 30px;
+}
+.about-image img{
+    width: 50%;
+    margin-left: 90px;
+}
+.about-text{
+    width: 50%;
+
+    margin-right: 70px;
+    margin-top: 100px;
+}
+.about-text h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.about-text p{
+    text-align: justify;
+    margin-bottom: 45px;
+}
+.about-text .about-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    
+}
+
+.food-area{
+    margin-top: 150px;
+}
+.food-text{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.food-text h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.food-recipie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-recipie{
+    width: 33%;
+    margin: 25px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+.single-recipie img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.single-recipie p{
+    text-align: justify;
+}
+.quantity-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.quantity-one{
+    font-size: 25px;
+    font-weight: 500;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+footer h1{
+    color: rgba(242, 233, 233, 0.323);
+}
+footer p{
+    color: rgba(242, 233, 233, 0.323);
+}
+.footer-text{
+    color: rgba(192, 71, 71, 0.7);
+}
